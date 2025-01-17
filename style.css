@@ -1,0 +1,45 @@
+:root {
+  --background: #18181D;
+  --dark-gray: #7E7E7E;
+  --gray: #D9D9D9;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: --black;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #7E7E7E;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #D9D9D9;
+}
+
+body {
+  background-color: var(--background);
+  padding: 10px;
+}
+
+img {
+  object-fit: contain;
+  max-width: 1500px;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  user-select: none;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
